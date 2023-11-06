@@ -1,0 +1,37 @@
+winchale atdio h #include <stdlib.h>
+
+Déclaration des variables long int decimal Number: Int i-1, j, reste, char hexadecimal Number[20];
+
+// Valeur a convertir (long int) Pour stocker le resultat (caracteres)
+
+Fonction principale Int main(int argc, char *argv[])
+
+Saisie de la valeur a convertir printf("Entrer un nombre decimale: "); scanf("%d", &decimal Number);
+
+// Conversion de la valeur par divisions successives while (decimal Number!-0) // Tant Que quotient différent de 0
+
+reste decimal Number % 16;
+
+Si temp<10 (chiffre: code ASCII de $30 a $39) reste reste +0x30;
+
+if (reste < 10)
+
+else // Sinon (Lettre : code ASCII de $41 a $46)
+
+reste reste +0x37: hexadecimal Number[i++]= reste; decimal Number - decimal Number/ 16;
+
+printf("\nLe nombre en hexadecimale est : ""); for (j-i-1 ;j>0;j-) printf("%c", hexadecimal Number[j]);
+
+Afficher un message // Affichage du nombre
+
+F5
+
+7
+
+H
+
+N
+
+system("pause");
+
+return 0;
